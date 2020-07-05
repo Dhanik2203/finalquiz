@@ -1,17 +1,17 @@
 print('Hello,Welcome to Quiz:')
 ans=input('You Want to play (yes/no):')
 score=0
-total_q=4
+total_q=6
 if ans.lower() == 'yes':
-    ans=input('1.What is Best Programming language: Option are:1:python,2:java')
-    if ans.lower() =='1':
+    ans=input('1.What is Best Programming language: Option are: 1:python,2:java')
+    if ans =='1':
         score +=1
         print('correct Answer')
     else:
         print('incorrect Answer')
 
-    ans = input('2.Who is india Prime Minister:Option are:1:narendra Modi,2:Rahul Gandhi ')
-    if ans.lower()== '1':
+    ans = input('2.The members of the Rajya Sabha are elected by: Option are: 1:Lok Sabha,2:elected members of the legislative assembly ')
+    if ans == '2':
         score += 1
         print('correct Answer')
     else:
@@ -24,8 +24,20 @@ if ans.lower() == 'yes':
     else:
         print('incorrect Answer')
 
-    ans = input('4.which Year corona virus war introduce: Option are:1:2019,2:2020')
-    if ans == '2':
+    ans = input('4.The nucleus of an atom consists of?: Option are:1:protons and neutrons,2:electrons and protons ')
+    if ans == '1':
+        score += 1
+        print('correct Answer')
+    else:
+        print('incorrect Answer')
+    ans = input('5.On July 12, 1982, the ARDC was merged into?: Option are:1:RBI,2:NABARD ')
+    if ans == '1':
+        score += 1
+        print('correct Answer')
+    else:
+        print('incorrect Answer')
+    ans = input('6.20th August is celebrated as?: Option are:1:Sad Bhawan Divas,2:Army Day ')
+    if ans == '1':
         score += 1
         print('correct Answer')
     else:
